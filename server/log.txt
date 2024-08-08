@@ -1,0 +1,10 @@
+GET /v1/auth
+GET /v1/auth
+GET /v1/auth
+GET /v1/auth
+GET /v1/auth
+GET /v1/auth
+GET /v1/auth
+GET /v1/auth
+GET /v1/auth
+GET /v1/auth

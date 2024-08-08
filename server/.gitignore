@@ -1,1 +1,5 @@
 /node_modules
+*.text
+/dist
+.DS_Store
+.env
