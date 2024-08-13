@@ -4,3 +4,4 @@ GET /v1/auth This is an error got introduced
 GET /v1/auth This is an error got introduced 
 GET /v1/auth This is an error got introduced 
 GET /v1/auth This is an error got introduced 
+GET /v1/auth This is an error got introduced 

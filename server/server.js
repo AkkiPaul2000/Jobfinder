@@ -3,10 +3,11 @@ const dotenv=require('dotenv')
 const authRoute=require('./routes/auth')
 const mongoose=require('mongoose')
 const fs=require('fs')
+const bodyParser=require('body-parser')
 const app=express()
 dotenv.config()
 const port=process.env.PORT||4000;
-
+app.use(bodyParser.urlencoded({extended:true}))
 app.get('/',(req,res)=>{
     res.send("Hello World")
 })
@@ -37,6 +38,5 @@ if(err){console.log(err)}
 
 app.listen(port,()=>{
     mongoose.connect(process.env.DB_CONNECT)
-    console.log(`Example app listening on port ${port}`)
-
+    console.log(`App listening on port ${port}`)
 })
